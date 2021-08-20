@@ -36,6 +36,23 @@ body {
  
 }
 
+.container-flex3{
+display: flex;
+flex-direction: row;
+margin-bottom: 7%;
+}
+
+.item-socials {
+  flex-basis: 100%;
+  
+  
+}
+.item-contact {
+  margin-bottom: 7%;
+  margin-left: 0;
+  margin-left: 10%;
+}
+
 .logos-div{
   text-align: center;
 }
@@ -53,7 +70,7 @@ p,
 .skill-set{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 100;
-  padding-bottom: 0.1rem;
+  margin-bottom: 0.7rem;
 }
 
 .copyright{
@@ -62,6 +79,8 @@ p,
  text-align: center;
  margin-bottom: 0;
  color: grey;
+ font-weight: 300;
+ font-style: oblique;
 }
 
 
@@ -108,6 +127,9 @@ h1 {
 
 .footer-h1 {
  color: #3F72AF;
+ margin-bottom: 15%;
+
+
 }
 
 .footer-contact-link {
@@ -250,15 +272,22 @@ margin-bottom: 7%;
 }
 
 .item-socials {
-  flex-basis: 100%;
-  
+  flex-basis: 100%; 
 }
 
+.item-contact{
+  margin-left: 0;
+  margin-left: 0;
+}
 
+.item-contact li {
+  margin: 19% 0;
+}
 
 .footer-h1{
  text-align: center;
  margin-right: 15%;
+ margin-bottom: 0;
 }
 
 .logos-div {
